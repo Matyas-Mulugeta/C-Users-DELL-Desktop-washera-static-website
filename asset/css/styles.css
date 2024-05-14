@@ -1,0 +1,102 @@
+/*This is css*/
+* {
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(146, 100, 146);
+}
+
+meter {
+    height: 30px;
+    width: 500px;
+}
+
+progress {
+    height: 30px;
+    width: 500px;
+}
+
+table,
+td,
+th {
+    border: 2px solid green;
+    border-collapse: collapse;
+}
+
+.table-1 {
+    background-color: rgb(98, 122, 173);
+    width: 80%;
+    margin: 50 auto;
+    padding: 25px 50px;
+    border: 2px solid;
+}
+
+thead {
+    background-color: rgb(102, 173, 102);
+    color: blueviolet;
+}
+
+td {
+    padding-left: 15px;
+}
+
+section {
+    background-color: rgb(197, 149, 149);
+    line-height: 1.5;
+    color: green;
+    padding: 30px;
+}
+
+/*css selectors
+by tag name
+by id
+by class
+by attribute
+*/
+#title-1 {
+    padding: 15%;
+    background-color: rgb(194, 177, 21);
+    font-size: 35px;
+}
+
+#Welcom {
+    color: rgb(46, 165, 42);
+}
+
+#Matyas {
+    color: rgb(58, 88, 58);
+}
+
+.Tecnologies-1 {
+    padding: 30px;
+    background-color: rgb(126, 73, 73);
+    color: antiquewhite;
+}
+
+.Tecnologies-2 {
+    padding: 30px;
+    background-color: rgb(73, 94, 126);
+    color: rgb(28, 155, 77);
+}
+
+.Tecnologies-3 {
+    padding: 40px;
+    background-color: rgb(136, 37, 114);
+    color: rgb(163, 125, 76);
+}
+
+footer {
+    background-color: yellow;
+    "
+
+}
+
+.footer-link {
+    height: 30px;
+    width: 30px;
+}
+.title{
+    background-color: lawngreen;
+    color: rgb(163, 59, 59);
+}
