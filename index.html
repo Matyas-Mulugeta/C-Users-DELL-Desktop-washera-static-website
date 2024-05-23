@@ -15,36 +15,56 @@
     </title>
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="./asset/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lato:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:wght@300;400;700;800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:wght@300;400;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div>
         <!--This is header section-->
         <header>
-            <h1 id="title-1" class="title">
-                <span id="Welcom">Welcom To</span>
-                <span id="Matyas">Matyas Academy</span>
-            </h1>
+            <div id="title-1" class="title page-section">
+                <h1>
+                    <span id="Welcom">
+                        Welcom To
+                    </span>
+                    <span id="Matyas">
+                        Matyas Academy
+                    </span>
+                </h1>
+                <ul class="manu-list">
+                    <li>
+                        <a href="./index.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./courses.html">Course</a>
+                    </li>
+                    <li>
+                        <a href="./projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="./apply.html">Apply</a>
+                    </li>
+                    <li>
+                        <a href="./contacts.html">Contacts</a>
+                    </li>
+                </ul>
+            </div>
         </header>
         <!--This is the main section-->
         <main>
             <div>
-                <!--heading parts-->
-                <div>
-                    <h1 class="title">This is Programming languages one</h1>
-                    <h2>This is HTML Part one</h2>
-                    <p>
-                        This is paragraphe <br>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, a. Voluptatum, quidem vitae
-                        voluptatibus quo sunt dolor perspiciatis laborum natus tempora cumque eius sequi consequuntur
-                        velit architecto facere eaque pariatur.
-                    </p>
-                </div>
                 <!--part of section-->
-                <div>
-                    <section>
+                <div   class="page-section">
+                    <div class="introdaction">
                         <h1>
-                            section 1
+                            introdaction
                         </h1>
                         <article>
                             <p>
@@ -65,8 +85,8 @@
                                 asperiores maiores sed exercitationem facere fugit nam harum laborum, eum optio!
                             </p>
                         </article>
-                    </section>
-                    <section>
+                    </div>
+                    <div class="introdaction-2">
                         <h1>
                             section 2
                         </h1>
@@ -89,10 +109,10 @@
                                 asperiores maiores sed exercitationem facere fugit nam harum laborum, eum optio!
                             </p>
                         </article>
-                    </section>
+                    </div>
                 </div>
                 <!--listed files-->
-                <div>
+                <div   class="page-section">
                     <div class="Tecnologies-1">
                         <h1>
                             frontend Technologies
@@ -105,12 +125,12 @@
                             <li>css</li>
                             <li>javaScript</li>
                             <li>React</li>
-                            <img src="./asset/pro-image/html.png" style="width:10%;" alt="html logo"
+                            <img src="./asset/pro-image/html.png"alt="html logo"
                                 title="html logo" />
-                            <img src="./asset/pro-image/css.png" style="width:10%;" alt="css logo" title="css logo" />
-                            <img src="./asset/pro-image/java.png" style="width:10%;" alt="java logo"
+                            <img src="./asset/pro-image/css.png" alt="css logo" title="css logo" />
+                            <img src="./asset/pro-image/java.png" alt="java logo"
                                 title="java logo" />
-                            <img src="./asset/pro-image/react.jpg" style="width:10%;" alt="react logo"
+                            <img src="./asset/pro-image/react.jpg" alt="react logo"
                                 title="react logo" />
                         </ul>
                     </div>
@@ -125,6 +145,9 @@
                             <li>React</li>
                             <li>Vue</li>
                             <li>Angular</li>
+                            <img src="./asset/pro-image/react.jpg" alt="react logo">
+                            <img src="./asset/pro-image/vue.png" alt="vue logo">
+                            <img src="./asset/pro-image/angular.png" alt="angular logo">
                         </ol>
                     </div>
                     <div class="Tecnologies-3">
@@ -140,11 +163,18 @@
                             <li>php</li>
                             <li>java</li>
                             <li>Ruby</li>
+                            <div>
+                                <img src="./asset/pro-image/node.png" alt="node logo">
+                                <img src="./asset/pro-image/python.jpg" alt="python logo">
+                                <img src="./asset/pro-image/php.png" alt="php logo">
+                                <img src="./asset/pro-image/java.png" alt="java logo">
+                                <img src="./asset/pro-image/ruby.jpg" alt="ruby logo">
+                            </div>
                         </ul>
                     </div>
                 </div>
                 <!--meter,progress,details-->
-                <div>
+                <div   class="page-section">
                     <!--meter-->
                     <h1><u>meter</u></h1>
                     Disk C:<meter value="25" min="0" max="100">
@@ -183,31 +213,36 @@
                     </details>
                 </div>
                 <!--Media files-->
-                <div>
-                    <h2>
+                <div   class="page-section video">
+                    <h1>
                         <u>
                             this is youtube video
                         </u>
-                    </h2>
+                    </h1>
                     <iframe width="663" height="480" src="https://www.youtube.com/embed/uxzwDXzeaTU"
                         title="HTML in Amharic:16 -  Media files (Video, audio and Images)" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                     </iframe>
-                    <h2>
+                    <h1>
                         <u>
                             this is podcasts
                         </u>
-                    </h2>
+                    </h1>
+                    <h2>Epsoid 1</h2>
                     <audio controls src="./asset/audios/Porsche+Macan+July+5+2018+(1).mp3" title="ferst podcasts">
-                    </audio><br />
-                    <audio controls="./asset/audios/Allusionist+HSBC+PRE+2019-07-12.mp3"
-                        title="secnd podcast"></audio><br />
+                    </audio>
+                    <br />
+                    <h2>Epsoid 2</h2>
+                    <audio controls="./asset/audios/Allusionist+HSBC+PRE+2019-07-12.mp3" title="secnd podcast">
+                    </audio>
+                    <br />
+                    <h2>Epsoid 3</h2>
                     <audio controls="./asset/audios/HSBC_Canada_Announcer_7.8.19_updated.mp3"
                         title="therd podcast"></audio>
                 </div>
                 <!--HTML Form-->
-                <div>
+                <div   class="page-section">
                     <fieldset>
                         <legend>
                             Application Form
@@ -355,7 +390,7 @@
                     </fieldset>
                 </div>
                 <!--HTML Table-->
-                <div class="table-1">
+                <div class="table-1 page-section">
                     <br />
                     <table>
                         <thead>
@@ -407,46 +442,19 @@
                         </tbody>
                     </table>
                 </div>
+                <!--box position
+                <div class="sticky">
+                    i am sticky!
+                </div>-->
+                <div class="box-wrapper page-section">
+                    <div class="box" id="box1">1</div>
+                    <div class="box" id="box2">2</div>
+                    <div class="box" id="box3">3</div>
+                    <div class="box" id="box4">4</div>
 
-                <!--blockeing and non blocking elments-->
-                <div>
-                    <p>
-                        subscribe to our nwes letter
-                    </p>
-                    <h1 style="border: 2px solid red;">This is going to a title</h1>
-                    <h2>This is going to a paragraphe</h2>
-                    <span style="border: 2px solid red;">This is going to som text</span>
-                    <span>This is going to anther text</span>
-                </div>
-                <!--let ass self closing elments-->
-                <div>
-                    <span>
-                        some text
-                    </span>
-                    <br />
-                    <span>
-                        another text
-                    </span>
-                </div>
-                <!--html formating-->
-                <div>
-                    <p>
-                        Lorem <em>ipsum dolor</em> sit amet consectetur,<b>adipisicing elit</b> . Dolores, ducimus
-                        <del>adipisci!</del> Dolorem <ins>perferendis</ins> ullam laborum et <u>unde</u> est modi natus
-                        qui,<strong>ratione</strong> in aliquid <mark>mollitia</mark> eos, eveniet impedit voluptas.
-
-                    </p>
-                    <pre>
-                                            sdjgbaphkjpowdjw9ugt79hrthio
-                                            asjghpueahgk;l,fphd0ghweprw
-                                            agh[oiwjgkl';sdgugufjjqwreo
-                                            dfhjerijhpeqjrgdghpoeprhg]
-                                            dfdfhpu9
-                                        </pre>
-                    <P>
-                        Sulfuric acid is very explosive inorganic compound(H<sub>2</sub>SO<sub>4</sub>)
-                    </P>
-                    2<sup>10</sup>=1024
+                    <div class="web-tech" id="HTML">HTML</div>
+                    <div class="web-tech" id="CSS">CSS</div>
+                    <div class="web-tech" id="JAVA">JAVASCRIPT</div>
                 </div>
             </div>
         </main>

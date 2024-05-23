@@ -1,0 +1,235 @@
+<!--Declaration-->
+<!DOCTYPE html>
+<!--The root elemrnt start from here-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="3600">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Matyas Academy the best onlin Academy to learn coding" />
+    <meta name="keywords" content="HTML,CSS,javaScript,coding,in Amharic" />
+    <meta name="aouhor" content="Matyas Academy" />
+    <title>
+        Matyas Academy Static Website
+    </title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./asset/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lato:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:wght@300;400;700;800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:wght@300;400;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <!--This is header section-->
+        <header>
+            <div id="title-1" class="title">
+                <h1>
+                    <span id="Welcom">
+                        Welcom To
+                    </span>
+                    <span id="Matyas">
+                        Matyas Academy
+                    </span>
+                </h1>
+                <ul class="manu-list">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./courses.html">Course</a>
+                    </li>
+                    <li>
+                        <a href="./projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="./apply.html" class="active">Apply</a>
+                    </li>
+                    <li>
+                        <a href="./contacts.html">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!--This is the main section-->
+        <main>
+            <div>
+                <!--HTML Form-->
+                <div>
+                    <fieldset>
+                        <legend>
+                            Application Form
+                        </legend>
+                        <form>
+                            <!--first name section-->
+                            <div>
+                                <label for="firstname">
+                                    firstname
+                                </label>
+                                <input type="name" id="firstname" placeholder="your firstname" />
+                            </div>
+                            <!--last name section-->
+                            <div>
+                                <label for="lastname">
+                                    lastname
+                                </label>
+                                <input type="name" id="lastname" placeholder="your lastname" />
+                            </div>
+                            <!--email section-->
+                            <div>
+                                <label for="email">
+                                    Email
+                                </label>
+                                <input type="email" id="email" placeholder="your Email" />
+                                <button>
+                                    submit
+                                </button>
+                            </div>
+                            <!--date section-->
+                            <div>
+                                <label for="Dateofbirth">
+                                    Date of Birth
+                                </label>
+                                <input type="date" id="Dateofbirth" placeholder="your Dateofbirth" />
+                            </div>
+                            <!--company section-->
+                            <div>
+                                <label for="company">
+                                    company name
+                                </label>
+                                <input type="name" id="company" placeholder="your company name" />
+                            </div>
+                            <!--checkbox section-->
+                            <div>
+                                <p>
+                                    what are your skills
+                                </p>
+                                <input type="checkbox" id="HTML">
+                                <label for="HTML">
+                                    HTML
+                                </label>
+                                <br />
+                                <input type="checkbox" id="CSS">
+                                <label for="CSS">
+                                    CSS
+                                </label>
+                                <br />
+                                <input type="checkbox" id="JAVASCRIPT">
+                                <label for="JAVASCRIPT">
+                                    JAVASCRIPT
+                                </label>
+                                <br />
+                                <input type="checkbox" id="REACT">
+                                <label for="REACT">
+                                    REACT
+                                </label>
+                                <br />
+                                <input type="checkbox" id="REDUX">
+                                <label for="REDUX">
+                                    REDUX
+                                </label>
+                            </div>
+                            <!--radio section-->
+                            <div>
+                                <p>
+                                    Gender
+                                </p>
+                                <input type="radio" id="Male" name="Gender">
+                                <label for="Male">
+                                    Male
+                                </label>
+                                <br />
+                                <input type="radio" id="Female" name="Gender">
+                                <label for="Female">
+                                    Female
+                                </label>
+                                <br />
+                                <input type="radio" id="Other" name="Gender">
+                                <label for="Other">
+                                    Other
+                                </label>
+                            </div>
+                            <!--select coutry section-->
+                            <div>
+                                <p>
+                                    select your country
+                                </p>
+                                <select name="country" id="country">
+                                    <option value="">
+                                        -- select your country--
+                                    </option>
+                                    <option value="Ethiopya">
+                                        Ethiopya
+                                    </option>
+                                    <option value="somalya">
+                                        somalya
+                                    </option>
+                                    <option value="djebuti">
+                                        djebuti
+                                    </option>
+                                    <option value="sudane">
+                                        sudane
+                                    </option>
+                                    <option value="kenya">
+                                        kenya
+                                    </option>
+                                </select>
+                            </div>
+                            <!--text area section-->
+                            <div>
+                                <label for="Message">
+                                    Leave your Message
+                                </label>
+                                <br />
+                                <textarea name="Message" id="Message" cols="60" rows="15">
+                                                        </textarea>
+                            </div>
+                            <!--input file section-->
+                            <div>
+                                <input type="file">
+                            </div>
+                            <!--another checkbox section-->
+                            <div>
+                                <input type="checkbox" id="agre">
+                                <label for="agre">
+                                    <small>
+                                        I agreed that all the information I have provided is true and belongs to me.
+                                    </small>
+                                </label>
+                                <br />
+                                <input type="submit" value="submit">
+                            </div>
+                        </form>
+                    </fieldset>
+                </div>
+            </div>
+        </main>
+        <!--This is the footer section-->
+        <footer>
+            <div>
+                <!--link section-->
+                <div>
+                    <a href="https://www.youtube.com/" target="blank">
+                        <i class="fa-brands fa-square-youtube"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="blank"><i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                </div>
+                <div>
+                    <small>
+                        Copyright &copy; 2024 |Matyas Mulugeta
+                    </small>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
+<!--The root elemrnt ended from here-->
