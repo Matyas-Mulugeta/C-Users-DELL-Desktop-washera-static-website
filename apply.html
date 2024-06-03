@@ -13,6 +13,10 @@
     <title>
         Matyas Academy Static Website
     </title>
+    <!-- CSS: Cascading Style Sheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link rel='stylesheet' href="./assets/css/styles.css" />
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="./asset/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +41,7 @@
                 </h1>
                 <ul class="manu-list">
                     <li>
-                        <a href="./index.html">Home</a>
+                        <a href="./home.html">Home</a>
                     </li>
                     <li>
                         <a href="./about.html">About</a>
@@ -61,52 +65,50 @@
         <main>
             <div>
                 <!--HTML Form-->
-                <div>
+                <div class="page-section">
                     <fieldset>
                         <legend>
                             Application Form
                         </legend>
                         <form>
                             <!--first name section-->
-                            <div>
+                            <div class="form-group">
                                 <label for="firstname">
                                     firstname
                                 </label>
                                 <input type="name" id="firstname" placeholder="your firstname" />
                             </div>
                             <!--last name section-->
-                            <div>
+                            <div class="form-group">
                                 <label for="lastname">
                                     lastname
                                 </label>
                                 <input type="name" id="lastname" placeholder="your lastname" />
                             </div>
-                            <!--email section-->
-                            <div>
-                                <label for="email">
-                                    Email
-                                </label>
-                                <input type="email" id="email" placeholder="your Email" />
-                                <button>
-                                    submit
-                                </button>
-                            </div>
-                            <!--date section-->
-                            <div>
-                                <label for="Dateofbirth">
-                                    Date of Birth
-                                </label>
-                                <input type="date" id="Dateofbirth" placeholder="your Dateofbirth" />
-                            </div>
                             <!--company section-->
-                            <div>
+                            <div class="form-group">
                                 <label for="company">
                                     company name
                                 </label>
                                 <input type="name" id="company" placeholder="your company name" />
                             </div>
+                            <!--email section-->
+                            <div class="form-group">
+                                <label for="email">
+                                    Email
+                                </label>
+                                <input type="email" id="email" placeholder="your Email" />
+                            </div>
+                            <!--date section-->
+                            <div class="form-group">
+                                <label for="Dateofbirth">
+                                    Date of Birth
+                                </label>
+                                <input type="date" id="Dateofbirth" placeholder="your Dateofbirth" />
+                            </div>
+
                             <!--checkbox section-->
-                            <div>
+                            <div class="form-group">
                                 <p>
                                     what are your skills
                                 </p>
@@ -136,7 +138,7 @@
                                 </label>
                             </div>
                             <!--radio section-->
-                            <div>
+                            <div class="form-group">
                                 <p>
                                     Gender
                                 </p>
@@ -156,7 +158,7 @@
                                 </label>
                             </div>
                             <!--select coutry section-->
-                            <div>
+                            <div class="form-group">
                                 <p>
                                     select your country
                                 </p>
@@ -182,20 +184,20 @@
                                 </select>
                             </div>
                             <!--text area section-->
-                            <div>
+                            <div class="form-group">
                                 <label for="Message">
                                     Leave your Message
                                 </label>
                                 <br />
                                 <textarea name="Message" id="Message" cols="60" rows="15">
-                                                        </textarea>
+                                    </textarea>
                             </div>
                             <!--input file section-->
-                            <div>
+                            <div class="form-group">
                                 <input type="file">
                             </div>
                             <!--another checkbox section-->
-                            <div>
+                            <div class="form-group">
                                 <input type="checkbox" id="agre">
                                 <label for="agre">
                                     <small>
@@ -203,7 +205,7 @@
                                     </small>
                                 </label>
                                 <br />
-                                <input type="submit" value="submit">
+                                <input type="submit" value="submit" class="btn">
                             </div>
                         </form>
                     </fieldset>
@@ -214,17 +216,18 @@
         <footer>
             <div>
                 <!--link section-->
-                <div>
-                    <a href="https://www.youtube.com/" target="blank">
-                        <i class="fa-brands fa-square-youtube"></i>
-                    </a>
-                    <a href="https://www.facebook.com/" target="blank"><i class="fa-brands fa-square-facebook"></i>
+                <div class="footer-wrapper">
+                    <a href="https://www.youtube.com/" target="blank"><i class="fab fa-youtube-square"></i>
+                    </a><a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-square"></i>
                     </a>
                 </div>
                 <div>
                     <small>
                         Copyright &copy; 2024 |Matyas Mulugeta
                     </small>
+                </div>
+                <div class="arrow">
+                    <a href="#title-1"><i class="fas fa-arrow-alt-circle-up"></i></a>
                 </div>
             </div>
         </footer>

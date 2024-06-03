@@ -13,6 +13,10 @@
     <title>
         Matyas Academy Static Website
     </title>
+        <!-- CSS: Cascading Style Sheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link rel='stylesheet' href="./assets/css/styles.css" />
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="./asset/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +41,7 @@
                 </h1>
                 <ul class="manu-list">
                     <li>
-                        <a href="./index.html">Home</a>
+                        <a href="./home.html">Home</a>
                     </li>
                     <li>
                         <a href="./about.html">About</a>
@@ -59,114 +63,117 @@
         </header>
         <!--This is the main section-->
         <main>
-            <!--meter,progress,details-->
             <div>
-                <!--meter-->
-                <h1><u>meter</u></h1>
-                Disk C:<meter value="25" min="0" max="100">
-                </meter><br />
-                Disk D:<meter value="55" min="0" max="100">
-                </meter><br />
-                Disk E:<meter value="35" min="0" max="100">
-                </meter>
-                <!--progress-->
-                <h1><u>progress</u></h1>
-                HTML<progress min="0" max="100" value="80">
-                </progress><br />
-                CSS<progress min="0" max="100" value="70">
-                </progress><br />
-                JAVA<progress min="0" max="100" value="40">
-                </progress>
-                <!--details-->
-                <h1><u>detail</u></h1>
-                <details>
-                    <summary>HTML</summary>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea nobis nisi in vero
-                        provident rerum, quia error, ab cupiditate assumenda fugiat ipsum, sapiente quod.
-                        Perferendis fuga odio ex in.</P>
-                </details>
-                <details>
-                    <summary>CSS</summary>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea nobis nisi in vero
-                        provident rerum, quia error, ab cupiditate assumenda fugiat ipsum, sapiente quod.
-                        Perferendis fuga odio ex in.</P>
-                </details>
-                <details>
-                    <summary>JAVA</summary>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea nobis nisi in vero
-                        provident rerum, quia error, ab cupiditate assumenda fugiat ipsum, sapiente quod.
-                        Perferendis fuga odio ex in.</P>
-                </details>
-            </div>
-            <!--HTML Table-->
-            <div class="table-1">
-                <br />
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Challenge</th>
-                            <th>Days</th>
-                            <th>Time</th>
-                            <th>Stars</th>
-                            <th>URL</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                30 Days of python
-                            </td>
-                            <td>30</td>
-                            <td>November 2019</td>
-                            <td>4.6K</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                30 Days of javaScript
-                            </td>
-                            <td>30</td>
-                            <td>January 2020</td>
-                            <td>6.8K</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                30 Days of React
-                            </td>
-                            <td>30</td>
-                            <td>October 2020</td>
-                            <td>5.6K</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                30 Days of HTML
-                            </td>
-                            <td>30</td>
-                            <td>February 2011</td>
-                            <td>3.3K</td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
+                <!--meter,progress,details-->
+                <div class="page-section">
+                    <!--meter-->
+                    <h1><u>meter</u></h1>
+                    Disk C:<meter value="25" min="0" max="100">
+                    </meter><br />
+                    Disk D:<meter value="55" min="0" max="100">
+                    </meter><br />
+                    Disk E:<meter value="35" min="0" max="100">
+                    </meter>
+                    <!--progress-->
+                    <h1><u>progress</u></h1>
+                    HTML<progress min="0" max="100" value="80">
+                    </progress><br />
+                    CSS<progress min="0" max="100" value="70">
+                    </progress><br />
+                    JAVA<progress min="0" max="100" value="40">
+                    </progress>
+                    <!--details-->
+                    <h1><u>detail</u></h1>
+                    <details>
+                        <summary>HTML</summary>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea nobis nisi in vero
+                            provident rerum, quia error, ab cupiditate assumenda fugiat ipsum, sapiente quod.
+                            Perferendis fuga odio ex in.</P>
+                    </details>
+                    <details>
+                        <summary>CSS</summary>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea nobis nisi in vero
+                            provident rerum, quia error, ab cupiditate assumenda fugiat ipsum, sapiente quod.
+                            Perferendis fuga odio ex in.</P>
+                    </details>
+                    <details>
+                        <summary>JAVA</summary>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea nobis nisi in vero
+                            provident rerum, quia error, ab cupiditate assumenda fugiat ipsum, sapiente quod.
+                            Perferendis fuga odio ex in.</P>
+                    </details>
+                </div>
+                <!--HTML Table-->
+                <div class="table-1 page-section">
+                    <br />
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Challenge</th>
+                                <th>Days</th>
+                                <th>Time</th>
+                                <th>Stars</th>
+                                <th>URL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    30 Days of python
+                                </td>
+                                <td>30</td>
+                                <td>November 2019</td>
+                                <td>4.6K</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    30 Days of javaScript
+                                </td>
+                                <td>30</td>
+                                <td>January 2020</td>
+                                <td>6.8K</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    30 Days of React
+                                </td>
+                                <td>30</td>
+                                <td>October 2020</td>
+                                <td>5.6K</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    30 Days of HTML
+                                </td>
+                                <td>30</td>
+                                <td>February 2011</td>
+                                <td>3.3K</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </main>
         <!--This is the footer section-->
         <footer>
             <div>
                 <!--link section-->
-                <div>
-                    <a href="https://www.youtube.com/" target="blank">
-                        <i class="fa-brands fa-square-youtube"></i>
-                    </a>
-                    <a href="https://www.facebook.com/" target="blank"><i class="fa-brands fa-square-facebook"></i>
+                <div class="footer-wrapper">
+                    <a href="https://www.youtube.com/" target="blank"><i class="fab fa-youtube-square"></i>
+                    </a><a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-square"></i>
                     </a>
                 </div>
                 <div>
                     <small>
                         Copyright &copy; 2024 |Matyas Mulugeta
                     </small>
+                </div>
+                <div class="arrow">
+                    <a href="#title-1"><i class="fas fa-arrow-alt-circle-up"></i></a>
                 </div>
             </div>
         </footer>

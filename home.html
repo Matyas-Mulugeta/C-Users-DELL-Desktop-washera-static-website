@@ -13,6 +13,10 @@
     <title>
         Matyas Academy Static Website
     </title>
+    <!-- CSS: Cascading Style Sheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link rel='stylesheet' href="./assets/css/styles.css" />
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="./asset/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +41,7 @@
                 </h1>
                 <ul class="manu-list">
                     <li>
-                        <a href="./index.html" class="active">Home</a>
+                        <a href="./home.html" class="active">Home</a>
                     </li>
                     <li>
                         <a href="./about.html">About</a>
@@ -60,9 +64,9 @@
         <!--This is the main section-->
         <main>
             <div>
-                <!--part of section-->
-                <div   class="page-section">
-                    <div class="introdaction">
+                <!--part of introdaction-->
+                <div>
+                    <div class="introdaction page-section">
                         <h1>
                             introdaction
                         </h1>
@@ -86,9 +90,9 @@
                             </p>
                         </article>
                     </div>
-                    <div class="introdaction-2">
+                    <div class="introdaction-2 page-section">
                         <h1>
-                            section 2
+                            introdaction-2
                         </h1>
                         <article>
                             <p>
@@ -111,9 +115,9 @@
                         </article>
                     </div>
                 </div>
-                <!--listed files-->
-                <div   class="page-section">
-                    <div class="Tecnologies-1">
+                <!--Listed filesl-->
+                <div>
+                    <div class="Tecnologies-1 page-section">
                         <h1>
                             frontend Technologies
                         </h1>
@@ -125,16 +129,13 @@
                             <li>css</li>
                             <li>javaScript</li>
                             <li>React</li>
-                            <img src="./asset/pro-image/html.png"alt="html logo"
-                                title="html logo" />
+                            <img src="./asset/pro-image/html.png" alt="html logo" title="html logo" />
                             <img src="./asset/pro-image/css.png" alt="css logo" title="css logo" />
-                            <img src="./asset/pro-image/java.png" alt="java logo"
-                                title="java logo" />
-                            <img src="./asset/pro-image/react.jpg" alt="react logo"
-                                title="react logo" />
+                            <img src="./asset/pro-image/java.png" alt="java logo" title="java logo" />
+                            <img src="./asset/pro-image/react.jpg" alt="react logo" title="react logo" />
                         </ul>
                     </div>
-                    <div class="Tecnologies-2">
+                    <div class="Tecnologies-2 page-section">
                         <h1>
                             popular javaScript
                         </h1>
@@ -150,7 +151,7 @@
                             <img src="./asset/pro-image/angular.png" alt="angular logo">
                         </ol>
                     </div>
-                    <div class="Tecnologies-3">
+                    <div class="Tecnologies-3 page-section">
                         <h1>
                             Backend Technologies
                         </h1>
@@ -174,120 +175,141 @@
                     </div>
                 </div>
                 <!--meter,progress,details-->
-                <div   class="page-section">
+                <div>
                     <!--meter-->
-                    <h1><u>meter</u></h1>
-                    Disk C:<meter value="25" min="0" max="100">
-                    </meter><br />
-                    Disk D:<meter value="55" min="0" max="100">
-                    </meter><br />
-                    Disk E:<meter value="35" min="0" max="100">
-                    </meter>
+                    <div class="page-section meter">
+                        <h1><u>meter</u></h1>
+                        Disk C:<meter value="25" min="0" max="100">
+                        </meter><br />
+                        Disk D:<meter value="55" min="0" max="100">
+                        </meter><br />
+                        Disk E:<meter value="35" min="0" max="100">
+                        </meter>
+                    </div>
                     <!--progress-->
-                    <h1><u>progress</u></h1>
-                    HTML<progress min="0" max="100" value="80">
-                    </progress><br />
-                    CSS<progress min="0" max="100" value="70">
-                    </progress><br />
-                    JAVA<progress min="0" max="100" value="40">
-                    </progress>
+                    <div class="page-section progress">
+                        <h1><u>progress</u></h1>
+                        HTML<progress min="0" max="100" value="80">
+                        </progress><br />
+                        CSS<progress min="0" max="100" value="70">
+                        </progress><br />
+                        JAVA<progress min="0" max="100" value="40">
+                        </progress>
+                    </div>
                     <!--details-->
-                    <h1><u>detail</u></h1>
-                    <details>
-                        <summary>HTML</summary>
-                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea nobis nisi in vero
-                            provident rerum, quia error, ab cupiditate assumenda fugiat ipsum, sapiente quod.
-                            Perferendis fuga odio ex in.</P>
-                    </details>
-                    <details>
-                        <summary>CSS</summary>
-                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea nobis nisi in vero
-                            provident rerum, quia error, ab cupiditate assumenda fugiat ipsum, sapiente quod.
-                            Perferendis fuga odio ex in.</P>
-                    </details>
-                    <details>
-                        <summary>JAVA</summary>
-                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea nobis nisi in vero
-                            provident rerum, quia error, ab cupiditate assumenda fugiat ipsum, sapiente quod.
-                            Perferendis fuga odio ex in.</P>
-                    </details>
+                    <div class="page-section details">
+                        <h1><u>detail</u></h1>
+                        <details>
+                            <summary>HTML</summary>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea nobis nisi in vero
+                                provident rerum, quia error, ab cupiditate assumenda fugiat ipsum, sapiente quod.
+                                Perferendis fuga odio ex in.</P>
+                        </details>
+                        <details>
+                            <summary>CSS</summary>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea nobis nisi in vero
+                                provident rerum, quia error, ab cupiditate assumenda fugiat ipsum, sapiente quod.
+                                Perferendis fuga odio ex in.</P>
+                        </details>
+                        <details>
+                            <summary>JAVA</summary>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea nobis nisi in vero
+                                provident rerum, quia error, ab cupiditate assumenda fugiat ipsum, sapiente quod.
+                                Perferendis fuga odio ex in.</P>
+                        </details>
+                    </div>
+                    <div class="page-section code-formatting">
+                        <pre>
+                            <code>//This is javaScript code</code>
+                            <var><span>const</span>gravity=9.91</var>
+                            <var><span>let</span>mass=50</var>
+                            <var><span>const</span>weight = gravity * mass</var>
+                            <kbd>
+                                ctr+c<br /> 
+                                ctrl+shit+enter
+                            </kbd>
+                        </pre>
+                    </div>
+                    
                 </div>
                 <!--Media files-->
-                <div   class="page-section video">
-                    <h1>
-                        <u>
-                            this is youtube video
-                        </u>
-                    </h1>
-                    <iframe width="663" height="480" src="https://www.youtube.com/embed/uxzwDXzeaTU"
-                        title="HTML in Amharic:16 -  Media files (Video, audio and Images)" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                    </iframe>
-                    <h1>
-                        <u>
-                            this is podcasts
-                        </u>
-                    </h1>
-                    <h2>Epsoid 1</h2>
-                    <audio controls src="./asset/audios/Porsche+Macan+July+5+2018+(1).mp3" title="ferst podcasts">
-                    </audio>
-                    <br />
-                    <h2>Epsoid 2</h2>
-                    <audio controls="./asset/audios/Allusionist+HSBC+PRE+2019-07-12.mp3" title="secnd podcast">
-                    </audio>
-                    <br />
-                    <h2>Epsoid 3</h2>
-                    <audio controls="./asset/audios/HSBC_Canada_Announcer_7.8.19_updated.mp3"
-                        title="therd podcast"></audio>
+                <div>
+                    <div class="page-section video">
+                        <h1>
+                            <u>
+                                this is youtube video
+                            </u>
+                        </h1>
+                        <iframe width="663" height="480" src="https://www.youtube.com/embed/uxzwDXzeaTU"
+                            title="HTML in Amharic:16 -  Media files (Video, audio and Images)" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="page-section audio">
+                        <h1>
+                            <u>
+                                this is podcasts
+                            </u>
+                        </h1>
+                        <h2>Epsoid 1</h2>
+                        <audio controls src="./asset/audios/Porsche+Macan+July+5+2018+(1).mp3" title="ferst podcasts">
+                        </audio>
+                        <br />
+                        <h2>Epsoid 2</h2>
+                        <audio controls="./asset/audios/Allusionist+HSBC+PRE+2019-07-12.mp3" title="secnd podcast">
+                        </audio>
+                        <br />
+                        <h2>Epsoid 3</h2>
+                        <audio controls="./asset/audios/HSBC_Canada_Announcer_7.8.19_updated.mp3"
+                            title="therd podcast"></audio>
+                    </div>
                 </div>
                 <!--HTML Form-->
-                <div   class="page-section">
+                <div class="page-section">
                     <fieldset>
                         <legend>
                             Application Form
                         </legend>
                         <form>
                             <!--first name section-->
-                            <div>
+                            <div class="form-group">
                                 <label for="firstname">
                                     firstname
                                 </label>
                                 <input type="name" id="firstname" placeholder="your firstname" />
                             </div>
                             <!--last name section-->
-                            <div>
+                            <div class="form-group">
                                 <label for="lastname">
                                     lastname
                                 </label>
                                 <input type="name" id="lastname" placeholder="your lastname" />
                             </div>
-                            <!--email section-->
-                            <div>
-                                <label for="email">
-                                    Email
-                                </label>
-                                <input type="email" id="email" placeholder="your Email" />
-                                <button>
-                                    submit
-                                </button>
-                            </div>
-                            <!--date section-->
-                            <div>
-                                <label for="Dateofbirth">
-                                    Date of Birth
-                                </label>
-                                <input type="date" id="Dateofbirth" placeholder="your Dateofbirth" />
-                            </div>
                             <!--company section-->
-                            <div>
+                            <div class="form-group">
                                 <label for="company">
                                     company name
                                 </label>
                                 <input type="name" id="company" placeholder="your company name" />
                             </div>
+                            <!--email section-->
+                            <div class="form-group">
+                                <label for="email">
+                                    Email
+                                </label>
+                                <input type="email" id="email" placeholder="your Email" />
+                            </div>
+                            <!--date section-->
+                            <div class="form-group">
+                                <label for="Dateofbirth">
+                                    Date of Birth
+                                </label>
+                                <input type="date" id="Dateofbirth" placeholder="your Dateofbirth" />
+                            </div>
+
                             <!--checkbox section-->
-                            <div>
+                            <div class="form-group">
                                 <p>
                                     what are your skills
                                 </p>
@@ -317,7 +339,7 @@
                                 </label>
                             </div>
                             <!--radio section-->
-                            <div>
+                            <div class="form-group">
                                 <p>
                                     Gender
                                 </p>
@@ -337,7 +359,7 @@
                                 </label>
                             </div>
                             <!--select coutry section-->
-                            <div>
+                            <div class="form-group">
                                 <p>
                                     select your country
                                 </p>
@@ -363,7 +385,7 @@
                                 </select>
                             </div>
                             <!--text area section-->
-                            <div>
+                            <div class="form-group">
                                 <label for="Message">
                                     Leave your Message
                                 </label>
@@ -372,11 +394,11 @@
                                         </textarea>
                             </div>
                             <!--input file section-->
-                            <div>
+                            <div class="form-group">
                                 <input type="file">
                             </div>
                             <!--another checkbox section-->
-                            <div>
+                            <div class="form-group">
                                 <input type="checkbox" id="agre">
                                 <label for="agre">
                                     <small>
@@ -384,7 +406,7 @@
                                     </small>
                                 </label>
                                 <br />
-                                <input type="submit" value="submit">
+                                <input type="submit" value="submit"class="btn">
                             </div>
                         </form>
                     </fieldset>
@@ -456,23 +478,38 @@
                     <div class="web-tech" id="CSS">CSS</div>
                     <div class="web-tech" id="JAVA">JAVASCRIPT</div>
                 </div>
+                <div class="page-section progress">
+                    <h2>address</h2>
+                    <div>
+                        <address>
+                            Addis Ababa, Ethiopya<br />
+                            <i class="fas fa-envelope-square"></i>
+                            POBOX:3838<br />
+                            <i class="fas fa-phone"></i>
+                            Tel:+251828282<br />
+                            <i class="fas fa-envelope-square"></i>
+                            Email:Matyas@mat.com
+                        </address>
+                    </div>
+                </div>
             </div>
         </main>
         <!--This is the footer section-->
         <footer>
             <div>
                 <!--link section-->
-                <div>
-                    <a href="https://www.youtube.com/" target="blank">
-                        <i class="fa-brands fa-square-youtube"></i>
-                    </a>
-                    <a href="https://www.facebook.com/" target="blank"><i class="fa-brands fa-square-facebook"></i>
+                <div class="footer-wrapper">
+                    <a href="https://www.youtube.com/" target="blank"><i class="fab fa-youtube-square"></i>
+                    </a><a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-square"></i>
                     </a>
                 </div>
                 <div>
                     <small>
                         Copyright &copy; 2024 |Matyas Mulugeta
                     </small>
+                </div>
+                <div class="arrow">
+                    <a href="#title-1"><i class="fas fa-arrow-alt-circle-up"></i></a>
                 </div>
             </div>
         </footer>

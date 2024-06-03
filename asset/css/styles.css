@@ -1,18 +1,22 @@
 /*This is css*/
-/*css selectors
-by tag name
-by id
-by class
-by attribute
-*/
+/*css selectors*/
 * {
     margin: 0%;
     box-sizing: border-box;
 }
+/*This is the body section*/
+body {
+    font-family: 'lnconsolata';
+}
+/*This is the header section*/
 header{
     background-color: rgb(224, 190, 95);
     padding: 20px;
     text-align: center;
+}
+#title-1 {
+    font-size: 35px;
+    text-transform: uppercase;
 }
 #Welcom {
     color: hsl(0, 51%, 58%);
@@ -21,10 +25,7 @@ header{
 #Matyas {
     color: rgb(73, 231, 73);
 }
-#title-1 {
-    font-size: 35px;
-    text-transform: uppercase;
-}
+
 .manu-list{
     padding: 15px;
     color: white;
@@ -41,22 +42,20 @@ header{
 .active{
     border-bottom: 3px solid red;
 }
-body {
-    background-color: rgb(146, 100, 146);
-    font-family: 'lnconsolata';
-}
+/*This is main section*/
 main{
     padding: 30px 50px 30px 50px;
 }
 .page-section{
     margin: 30px auto;
     padding: 30px;
-    border-radius: 15px;;
+    border-radius: 25px;
 }
 h1{
     margin: 10px auto;
     text-transform: uppercase ;
 }
+/*the main section introdaction*/
 .introdaction{
     background-color: rgb(100, 71, 155);
     color: white;
@@ -64,16 +63,96 @@ h1{
 .introdaction-2{
     background-color: rgb(230, 219, 120);
 }
-meter {
-    height: 30px;
-    width: 500px;
+/*Listed filesl*/
+.Tecnologies-1{
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgb(126, 73, 73);
+    color: antiquewhite;
 }
 
-progress {
-    height: 30px;
-    width: 500px;
+.Tecnologies-2{
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgb(73, 94, 126);
+    color: rgb(28, 155, 77);
 }
 
+.Tecnologies-3{
+    margin: 30px auto;
+    padding: 40px;
+    background-color: rgb(136, 37, 114);
+    color: rgb(163, 125, 76);
+}
+/*meter,progress,details*/
+meter,progress,details{
+    height: 40px;
+    width: 500px;
+}
+.meter {
+    background-color: rgb(34, 32, 32);
+    color: white;
+}
+
+.progress{
+    background-color: rgb(107, 57, 172);
+    color: white;
+}
+.details{
+    background-color: rgb(231, 189,.49);
+}
+.code-formatting{
+    background-color: rgb(144, 144, 218);
+    color: white;
+}
+/*Media files*/
+img{
+    width: 10%;
+}
+.video{
+    text-align: center;
+    width: 80%;
+}
+.audio{
+    margin: 25px auto;
+}
+.audio h2{
+    margin: 5px;
+    font-weight: 400;
+}
+/*html form*/
+form{
+    width: 100%;
+}
+.form-group{
+    margin: 15px auto;
+}
+ input[type='name'],
+ input[type='date'],
+ input[type='email'],textarea, select {
+    display: block;
+    padding: 10px;
+    width: 55%;
+    border-radius: 3px;
+    border: 2px solid rgb(203,93, 93,0.25);
+    margin-top: 3px;
+ }
+ input[type='name']:hover,
+ input[type='date']:hover,
+ input[type='email']:hover,textarea:hover, select:hover {
+    border: 2px solid rgb(203,93, 93,0.25);
+ }
+ .btn{
+    padding: 15px 25px;
+    background: green;
+    color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 900;
+    text-transform: uppercase;
+ }
+/*HTML Table*/
 table,
 td,
 th {
@@ -97,14 +176,7 @@ thead {
 td {
     padding-left: 15px;
 }
-
-section {
-    background-color: rgb(197, 149, 149);
-    line-height: 1.5;
-    color: green;
-    padding: 30px;
-}
-
+/*box position*/
 .box-wrapper{
     z-index: -100;
     position: relative;
@@ -156,41 +228,6 @@ section {
     background-color: purple;
     color: rgb(164, 199, 83);
 }
-img{
-    width: 10%;
-}
-.video{
-    max-width: 75%;
-    margin: auto;
-}
-
-.Tecnologies-1 {
-    padding: 30px;
-    background-color: rgb(126, 73, 73);
-    color: antiquewhite;
-}
-
-.Tecnologies-2 {
-    padding: 30px;
-    background-color: rgb(73, 94, 126);
-    color: rgb(28, 155, 77);
-}
-
-.Tecnologies-3 {
-    padding: 40px;
-    background-color: rgb(136, 37, 114);
-    color: rgb(163, 125, 76);
-}
-
-footer {
-    background-color: yellow;
-}
-
-.footer-link {
-    height: 30px;
-    width: 30px;
-}
-
 .web-tech{
     position: absolute;
     height: 150px;
@@ -216,4 +253,33 @@ footer {
     left: 720px;
     top: 180px;
     background-color: rgb(221, 221, 32);
+}
+.fa-envelope-square,.fa-phone{
+    font-size: 25px;
+    color: #3f2f2f;
+}
+/*This is the footer section*/
+footer {
+    background-color: rgb(224, 190, 95);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-wrapper > div a {
+    margin: 25px;
+}
+.fa-youtube-square{
+    font-size: 32px;
+    color: #FF0000;
+
+}
+.fa-facebook-square{
+    font-size: 32px;
+    color: #4267B2;
+}
+.arrow{
+    text-align: right;
+}
+.arrow i{
+    color: hsl(0, 51%, 58%);
 }

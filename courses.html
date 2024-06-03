@@ -13,6 +13,10 @@
     <title>
         Matyas Academy Static Website
     </title>
+        <!-- CSS: Cascading Style Sheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link rel='stylesheet' href="./assets/css/styles.css" />
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="./asset/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +41,7 @@
                 </h1>
                 <ul class="manu-list">
                     <li>
-                        <a href="./index.html">Home</a>
+                        <a href="./home.html">Home</a>
                     </li>
                     <li>
                         <a href="./about.html">About</a>
@@ -60,7 +64,7 @@
         <!--This is the main section-->
         <main>
             <!--listed files-->
-            <div>
+            <div class="page-section">
                 <div class="Tecnologies-1">
                     <h1>
                         frontend Technologies
@@ -73,10 +77,10 @@
                         <li>css</li>
                         <li>javaScript</li>
                         <li>React</li>
-                        <img src="./asset/pro-image/html.png" style="width:10%;" alt="html logo" title="html logo" />
-                        <img src="./asset/pro-image/css.png" style="width:10%;" alt="css logo" title="css logo" />
-                        <img src="./asset/pro-image/java.png" style="width:10%;" alt="java logo" title="java logo" />
-                        <img src="./asset/pro-image/react.jpg" style="width:10%;" alt="react logo" title="react logo" />
+                        <img src="./asset/pro-image/html.png" alt="html logo" title="html logo" />
+                        <img src="./asset/pro-image/css.png" alt="css logo" title="css logo" />
+                        <img src="./asset/pro-image/java.png" alt="java logo" title="java logo" />
+                        <img src="./asset/pro-image/react.jpg" alt="react logo" title="react logo" />
                     </ul>
                 </div>
                 <div class="Tecnologies-2">
@@ -90,6 +94,9 @@
                         <li>React</li>
                         <li>Vue</li>
                         <li>Angular</li>
+                        <img src="./asset/pro-image/react.jpg" alt="react logo">
+                        <img src="./asset/pro-image/vue.png" alt="vue logo">
+                        <img src="./asset/pro-image/angular.png" alt="angular logo">
                     </ol>
                 </div>
                 <div class="Tecnologies-3">
@@ -105,6 +112,13 @@
                         <li>php</li>
                         <li>java</li>
                         <li>Ruby</li>
+                        <div>
+                            <img src="./asset/pro-image/node.png" alt="node logo">
+                            <img src="./asset/pro-image/python.jpg" alt="python logo">
+                            <img src="./asset/pro-image/php.png" alt="php logo">
+                            <img src="./asset/pro-image/java.png" alt="java logo">
+                            <img src="./asset/pro-image/ruby.jpg" alt="ruby logo">
+                        </div>
                     </ul>
                 </div>
             </div>
@@ -113,17 +127,18 @@
         <footer>
             <div>
                 <!--link section-->
-                <div>
-                    <a href="https://www.youtube.com/" target="blank">
-                        <i class="fa-brands fa-square-youtube"></i>
-                    </a>
-                    <a href="https://www.facebook.com/" target="blank"><i class="fa-brands fa-square-facebook"></i>
+                <div class="footer-wrapper">
+                    <a href="https://www.youtube.com/" target="blank"><i class="fab fa-youtube-square"></i>
+                    </a><a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-square"></i>
                     </a>
                 </div>
                 <div>
                     <small>
                         Copyright &copy; 2024 |Matyas Mulugeta
                     </small>
+                </div>
+                <div class="arrow">
+                    <a href="#title-1"><i class="fas fa-arrow-alt-circle-up"></i></a>
                 </div>
             </div>
         </footer>
